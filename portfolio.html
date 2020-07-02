@@ -3,20 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="./index.html" lang="en">Web Studio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <a href="./index.html" lang="en" class="logo"
+          >Web <span class="up">Studio</span></a
+        >
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contacts list">
         <li>
           <img
             src="./images/main-page/envelope(hover).svg"
@@ -24,7 +32,9 @@
             width="16"
             height="11"
           />
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
           <img
@@ -33,7 +43,7 @@
             width="10"
             height="15"
           />
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
@@ -48,7 +58,7 @@
           <button type="button">Дизайн</button>
           <button type="button">Маркетинг</button>
         </div>
-        <ul>
+        <ul class="list">
           <li>
             <a href=""
               ><img
@@ -207,33 +217,35 @@
     </main>
     <footer>
       <div>
-        <a href="./index.html" lang="en">Web Studio</a>
-        <address>
+        <a href="./index.html" lang="en" class="logo"
+          >Web <span class="down">Studio</span></a
+        >
+        <address class="address">
           <p>г. Киев, пр-т Леси Украинки, 26</p>
           <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
           <a href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
       </div>
       <div>
-        <b>Присоединяйтесь</b>
-        <ul>
+        <b class="join-us">Присоединяйтесь</b>
+        <ul class="social list">
           <li>
-            <a href="" aria-label="Сссылка на Instagram"
+            <a href="" class="link" aria-label="Сссылка на Instagram"
               >Место для инлайн свг иконки Instagram
             </a>
           </li>
           <li>
-            <a href="" aria-label="Сссылка на Twitter"
+            <a href="" class="link" aria-label="Сссылка на Twitter"
               >Место для инлайн свг иконки Twitter
             </a>
           </li>
           <li>
-            <a href="" aria-label="Сссылка на Facebook"
+            <a href="" class="link" aria-label="Сссылка на Facebook"
               >Место для инлайн свг иконки Facebook
             </a>
           </li>
           <li>
-            <a href="" aria-label="Сссылка на LinkedIn"
+            <a href="" class="link" aria-label="Сссылка на LinkedIn"
               >Место для инлайн свг иконки LinkedIn
             </a>
           </li>
